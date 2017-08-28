@@ -1,14 +1,14 @@
 ---
-title: "About"
-permalink: /docs/about/
+title: "About Common Data Elements"
+permalink: /about/
 excerpt: "Getting Started with CDEs."
 layout: single
 ---
 
-# About CDEs (Common Data Elements)
 The NIH Common Data Element (CDE) Repository is an emerging project to explore the understanding,
  construction and practice of data elements to support the development of infrastructure to facilitate 
  the use of electronic health records (EHRs) in comparative effectiveness research (CER). 
+
  The overall goals of this Repository are to:
 * Select and require the use of health information technology standards-based common data elements (CDEs) and patient assessment instruments in CER funded by NIH, HHS and the Patient-Centered Outcomes Research Institute (PCORI);
 * Develop and validate a health IT standards-based ‘extensible electronic case report form’ (eCRF) to be used within EHRs to enable efficient capture of data on individual patients for specified use cases for merger with comparable data for other relevant patients and use in CER
@@ -16,8 +16,13 @@ The NIH Common Data Element (CDE) Repository is an emerging project to explore t
 
 # Background/History
 Electronic health records (EHRs) have the potential to provide useful information for Comparative Effectiveness Research (CER). CER is the conduct and synthesis of systematic research comparing different interventions and strategies to prevent, diagnose, treat and monitor health conditions.  Many current CER projects rely on data collected in site- or system-specific EHRs.  The applicability and power of such studies would be increased using structured data definitions – common data elements (CDEs) – that comply with the consensus-derived health data standards established for “Meaningful Use” of EHRs as established by the Health Information Technology for Economic and Clinical Health Act (HITECH Act) of 2009. In other words, if relevant patient data (e.g., lab test results, marital status, patient-reported depression) were defined and collected in a common way in different CER studies, it would be easier to compare the results of CER studies, and it would be easier to use EHR systems as a source of valid CER data.   
+
 An important task in defining data elements is to define the set of all possible valid values for the data element.  In the case of marital status, for example, this involves creating a specific vocabulary value set (single, never married; married; separated; divorced; widowed; etc.)  If such vocabulary value sets are defined using the standard terminologies required for “Meaningful Use” of EHRs, this will facilitate the use of EHRs in CER. 
+
 As part of building the data infrastructure to support Patient Centered Outcomes Research (PCOR), Structured Data Capture was established as a Standards Initiative to focus on the identification, testing and validation of standards necessary to enable an electronic health record to retrieve, display, and fill a structured form or template, and store/submit the completed form to an external system and/or repository.
+
 Various clinical and health services research groups and specialty societies are already engaged in independent initiatives to standardize data collection across projects in their domains to maximize the utility of the resulting datasets for subsequent research.  Many important efforts, such as PROMIS and PhenX, are funded by the NIH and other federal sources. In addition, work within the clinical research community, such as the CDISC standard Operational Data Model (ODM)-XML, is already focused on the development of standardized mechanisms to embed structured electronic forms with common data elements within the EHR to facilitate collection of research data.
+
 Work is needed to build on these efforts, to (1) identify and eventually require the use of key CDEs and patient assessment instruments in CER funded by HHS and PCORI, (2) define these CDEs and assessment instruments using standard terminologies and terminology value sets, and (3) develop the infrastructure needed so that CDEs and standardized ways of collecting data for CER are available for use within EHR products.  These efforts will make it easier to conduct CER in diverse community health care settings, by reducing the data collection burden on health care providers and patients and the need to make site-specific modifications to EHR system capabilities to enable community participation.  They will also ensure that data from different CER research studies can be more easily compared and aggregated.
+
 The infrastructure needed consists of two components: an authoritative repository (or repositories) that will maintain and distribute up-to-date CDE and patient assessment specifications, with underlying terminology value sets, to researchers and EHR developers, and a standardized mechanism that would enable an EHR to capture structured data for a specified use case.  Once this full infrastructure is in place, researchers will have ready access to standardized electronic versions of data collection instruments relevant to CER,  such as validated instruments for collecting data on pain, fatigue, physical function, depression, anxiety and social function from patients; it will be easier to integrate these instruments into EHRs in ways that reduce duplicate data entry; and the data collected in different CER studies will be more comparable and therefore more useful in ascertaining what works best for different patient populations.

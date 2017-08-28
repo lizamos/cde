@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "Quick-Start Guide"
-    url: /docs/quick-start/
+    url: /quick-start/
   - title: "About"
-    url: /docs/about/
+    url: /about/
   - title: "Standards"
-    url: /docs/standards/
+    url: /standards/
 
   # - title: "Sitemap"
   #   url: /sitemap/
