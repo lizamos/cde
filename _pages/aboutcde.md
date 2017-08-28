@@ -5,11 +5,9 @@ excerpt: "Getting Started with CDEs."
 layout: single
 ---
 
-The NIH Common Data Element (CDE) Repository is an emerging project to explore the understanding,
- construction and practice of data elements to support the development of infrastructure to facilitate 
- the use of electronic health records (EHRs) in comparative effectiveness research (CER). 
+The NIH Common Data Element (CDE) Repository is an emerging project to explore the understanding, construction and practice of data elements to support the development of infrastructure to facilitate the use of electronic health records (EHRs) in comparative effectiveness research (CER). 
 
- The overall goals of this Repository are to:
+The overall goals of this Repository are to:
 * Select and require the use of health information technology standards-based common data elements (CDEs) and patient assessment instruments in CER funded by NIH, HHS and the Patient-Centered Outcomes Research Institute (PCORI);
 * Develop and validate a health IT standards-based ‘extensible electronic case report form’ (eCRF) to be used within EHRs to enable efficient capture of data on individual patients for specified use cases for merger with comparable data for other relevant patients and use in CER
 * Enhance health IT standards infrastructure to support effective maintenance, distribution, and use of the definitions of CDEs and patient assessment instruments, with emphasis on the standard terminology value sets required to define them.
