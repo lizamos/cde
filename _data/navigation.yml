@@ -7,5 +7,13 @@ main:
   - title: "Standards"
     url: /standards/
 
+Standards:
+  - title: "Standards"
+    url: /standards/
+  - title: "Terminology"
+    url: /standards/terminology
+  - title: "Export and Exchange"
+    url: /standards/export
+
   # - title: "Sitemap"
   #   url: /sitemap/
