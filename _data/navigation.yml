@@ -7,13 +7,10 @@ main:
   - title: "Standards"
     url: /standards/
 
-Standards:
-  - title: "Standards"
-    url: /standards/
-  - title: "Terminology"
-    url: /standards/terminology
-  - title: "Export and Exchange"
-    url: /standards/export
-
+docs:
+  - title: Standards at NLM
+    children:
+      - title: "Terminology"
+        url: /terminology/
   # - title: "Sitemap"
   #   url: /sitemap/

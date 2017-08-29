@@ -1,30 +1,26 @@
 ---
-title: "Splash Page"
 layout: splash
-permalink: /home/
+permalink: /
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/NIH-CDE.png
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
-intro:
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/CDE-background.png
+excerpt: 'Promoting the use of standards-based data elements and forms in support of electronic data capture.<br /> <small><a href="https://cde.nlm.nih.gov">Check it out!</a></small><br /><br />'
 feature_row:
-  - image_path: assets/images/NIH-CDE.png
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
   - image_path: /assets/images/NIH-CDE.png
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-
+    alt: "customizable"
+    title: "Super Customizable"
+    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    btn_label: "Learn More"
+  - image_path: /assets/images/NIH-CDE.png
+    alt: "fully responsive"
+    title: "Responsive Layouts"
+    excerpt: "Built on HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    btn_label: "Learn More"
+  - image_path: /assets/images/NIH-CDE.png
+    alt: "100% free"
+    title: "100% Free"
+    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"
+    btn_label: "Learn More"
 ---
 
 {% include feature_row id="intro" type="center" %}
